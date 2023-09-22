@@ -12,7 +12,7 @@
     {
       "transform": [
         {
-          "calculate": "'Data is not available in ' + datum.properties.NAME",
+          "calculate": "'No conflicts recorded in ' + datum.properties.NAME",
           "as": "note"
         }
       ],
@@ -46,6 +46,13 @@
           {"field": "avg_duration", "type": "ordinal"}
         ]
       }
+    },
+    {
+      "data": {
+      "url": "https://raw.githubusercontent.com/sste0032/FIT3179_Homework/main/Homework%20W9/Data/ne_110m.json",
+      "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+      },
+      "mark": {"type": "geoshape", "fill": null, "stroke": "lightblue"}
     }
   ],
   "config": {}
