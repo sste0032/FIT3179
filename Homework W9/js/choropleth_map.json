@@ -10,13 +10,20 @@
   "projection": {"type": "equalEarth"},
   "layer": [
     {
+      "data": {
+      "url": "https://raw.githubusercontent.com/sste0032/FIT3179_Homework/main/Homework%20W9/Data/oceans.topojson",
+      "format": {"type": "topojson", "feature": "oceans"}
+      },
+      "mark": {"type": "geoshape", "fill": "lightblue"}
+    },
+    {
       "transform": [
         {
           "calculate": "'No conflicts recorded in ' + datum.properties.NAME",
           "as": "note"
         }
       ],
-      "mark": {"type": "geoshape", "fill": "white", "stroke": "darkgrey"},
+      "mark": {"type": "geoshape", "fill": "white", "stroke": "darkgray"},
       "encoding": {"tooltip": {"field": "note"}}
     },
     {
