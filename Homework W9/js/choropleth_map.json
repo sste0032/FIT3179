@@ -44,7 +44,17 @@
         "color": {
           "field": "no_conflicts",
           "type": "quantitative",
-          "scale": {"scheme": "lightorange"},
+          "scale": {
+            "type":"threshold",
+            "domain": [2, 6, 12, 20, 30],
+            "range": [
+              "rgb(254,240,217)",
+              "rgb(253,212,158)",
+              "rgb(253,187,132)",
+              "rgb(252,141,89)",
+              "rgb(227,74,51)",
+              "rgb(179,0,0)"]
+            },
           "legend": {"title": "Number of Conflicts"}
         },
         "tooltip": [
