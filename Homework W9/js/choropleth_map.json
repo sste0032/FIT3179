@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Number of Conflicts Across the Globe",
+  "title": "Frequency of Countries involved in Conflicts (1946-2022)",
   "width": 500,
   "height": 300,
   "data": {
