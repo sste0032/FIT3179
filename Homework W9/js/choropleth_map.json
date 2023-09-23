@@ -58,10 +58,10 @@
           "legend": {"title": "Number of Conflicts"}
         },
         "tooltip": [
-          {"field": "properties.NAME", "type": "nominal", "title": "Country:"},
-          {"field": "no_conflicts", "type": "ordinal", "title": "Number of Conflicts:"},
-          {"field": "avg_intensity", "type": "quantitative", "title": "Average Intensity:"},
-          {"field": "avg_duration", "type": "ordinal", "title": "Average Duration (days):"}
+          {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+          {"field": "no_conflicts", "type": "ordinal", "title": "Number of Conflicts"},
+          {"field": "avg_intensity", "type": "quantitative", "title": "Average Intensity"},
+          {"field": "avg_duration", "type": "ordinal", "title": "Average Duration (days)"}
         ]
       }
     },
